@@ -43,8 +43,8 @@ li:last-child{
 
 a:hover{
 	color: #DC0055;
-	text-transform: uppercase;
-	font-weight: bolder;
+	font-weight: bold;
+
 }
 
 .desplegable{
