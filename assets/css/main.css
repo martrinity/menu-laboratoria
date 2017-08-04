@@ -43,17 +43,21 @@ a:hover{
 
 }
 
-.desplegable{
+#desplegable{
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 40px;
+	height: 100%;
 
 }
 
-.desplegable a{
-	text-decoration: none;
-	color: white;
+#menu a{
+	text-decoration: none !important; 
+	color: white !important;
+}
+#desplegable a{
+	text-decoration: none !important; 
+	color: white !important;
 	font-size: 150;
 	padding: 10px;
 	width: 50%;
@@ -65,19 +69,25 @@ a:hover{
 
 }
 
+.responsive ul{
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 .flex-container{
-  display: flex;
+	display: flex;
 }
 
 .hide{
-  display: none;
+	display: none;
 }
 
 
 
 
 @media (min-width: 200px) and (max-width: 700px) {
-	[class*="menu"]{
+	[class*="flex-container"]{
 		width: 100%;
 	}
 	body{
@@ -87,6 +97,7 @@ a:hover{
 	}
 	.menu{
 		display: none;
+
 	}
 
 	.responsive{
