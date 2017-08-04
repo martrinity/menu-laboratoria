@@ -19,10 +19,6 @@ body{
 	
 }
 
-.flex-container{
-    justify-content: space-around;
-    align-items: center;
-}
 
 li a{
 	text-decoration: none;
@@ -48,8 +44,6 @@ a:hover{
 }
 
 .desplegable{
-	display: none;
-	background-color: black;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -62,6 +56,21 @@ a:hover{
 	color: white;
 	font-size: 150;
 	padding: 10px;
+	width: 50%;
+
+}
+
+.responsive{
+	background-color: black;
+
+}
+
+.flex-container{
+  display: flex;
+}
+
+.hide{
+  display: none;
 }
 
 
@@ -73,15 +82,15 @@ a:hover{
 	}
 	body{
 		background: white;
-		font-family: 'Indie Flower', cursive;
+		font-family: 'Khand', sans-serif;
 		color: white;
 	}
 	.menu{
 		display: none;
 	}
 
-	.desplegable{
-		display: flex;
+	.responsive{
+		display: block;
 	}
 
 	
